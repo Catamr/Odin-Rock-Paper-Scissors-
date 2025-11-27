@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #56524c;
+    color: #793205;
+}
+
+h1 {
+    font-size: 36px;
+    color: #d4d0ce;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+    height: auto;
+    padding: 10px;
+
+    border-radius: 0.5rem;
+    border-color: #e4d8b4;
+    background-color: #dbca9b;
+    
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ece3ca;
+    border-radius: 0.25rem;
+}
+
+
+.scoreContainer > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.scoreContainer > div > p {
+    margin: 5px;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 0.5rem;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.25rem;
+    background-color: #ece3ca;
+}
+
+.inputContainer > button {
+    width: 180px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 0.25rem;
+    color: #fef2c6;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btnRock {
+    background-color: #f34700;
+}
+
+.btnPaper{
+    background-color: #0082ce;
+}
+
+.btnScissors{
+    background-color: #00776f;
+}
