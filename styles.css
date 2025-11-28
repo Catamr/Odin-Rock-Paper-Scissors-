@@ -72,14 +72,14 @@ img {
     font-weight: 900;
 }
 
-.btnRock {
+#rock {
     background-color: #f34700;
 }
 
-.btnPaper{
+#paper {
     background-color: #0082ce;
 }
 
-.btnScissors{
+#scissors {
     background-color: #00776f;
 }
